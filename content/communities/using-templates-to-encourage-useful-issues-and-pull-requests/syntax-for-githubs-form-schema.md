@@ -51,6 +51,8 @@ For example, the following form definition includes four form elements: a text a
     options:
       - label: I agree to follow this project's [Code of Conduct](link/to/coc)
         required: true
+  validations:
+    required: true
 - type: markdown
   attributes:
     value: "Thanks for completing our form!"
@@ -270,6 +272,8 @@ body:
       - label: macOS
       - label: Windows
       - label: Linux
+  validations:
+    required: true
 ```
 
 ## Further reading
